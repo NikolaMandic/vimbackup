@@ -45,3 +45,4 @@ set ttimeoutlen=50
 autocmd QuickFixCmdPost *grep* cwindow
 nnoremap <Leader>f :Unite -start-insert grep/git:.<CR>
 set hidden
+set mouse=a
